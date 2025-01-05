@@ -80,7 +80,7 @@ const UserDashboard: React.FC = () => {
 
     if (retry < 5) fetchEvents(); 
     else setIsLoading(false); 
-  }, [retry, page, limit, signedUpEvents]);
+  }, [retry, page, limit]);
 
   const handleNextPage = () => {
     if (page < totalPages) setPage(page + 1);
