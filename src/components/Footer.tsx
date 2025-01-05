@@ -14,10 +14,10 @@ const Footer: React.FC = () => {
         {new Date().getFullYear()}.
       </Typography>
       <Typography variant="body2">
-        <Link href="#" color="inherit" underline="none">
+        <Link href="/privacy" color="inherit" underline="none">
           Privacy Policy
         </Link>{' | '}
-        <Link href="#" color="inherit" underline="none">
+        <Link href="/terms" color="inherit" underline="none">
           Terms of Service
         </Link>
       </Typography>

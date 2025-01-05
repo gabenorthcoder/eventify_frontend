@@ -21,6 +21,8 @@ import Event from "./components/Events/Event";
 import StaffLogin from "./components/Staff/StaffLogin";
 import RegisterSuperAdmin from "./components/SuperAdmin/SuperAdminRegister";
 import RegisterStaff from "./components/Staff/RegisterStaff";
+import Terms from "./components/Terms";
+import Privacy from "./components/Privacy";
 
 const App: React.FC = () => {
   return (
@@ -45,6 +47,8 @@ const App: React.FC = () => {
           <Route path="/event/:id" element={<Event />} />
           <Route path="/auth/google/callback" element={<GoogleCallback />} />
           <Route path="/auth/google/calender/callback" element={<GoogleCalendarCallback />} />
+          <Route path="/privacy" element={<Privacy/>} />
+          <Route path="/terms" element={<Terms />} />
           <Route path="/error" element={<Error error={"Please login and try again"} />} />
           <Route path="*" element={<Error error={"Page Not Found"} />} />
           
