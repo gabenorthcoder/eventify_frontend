@@ -4,6 +4,8 @@
 
 The Events Platform Frontend is a React application designed to work seamlessly with the Events Platform Backend. It provides a user-friendly interface for managing events, user registrations, and administrative tasks. The application is built using TypeScript and Material-UI for a responsive and modern design.
 
+Production: https://events-platform-coral-rho.vercel.app
+
 ## Features
 
 - User authentication and authorization
@@ -35,8 +37,8 @@ VITE_API_URL=http://localhost:3000
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/events-platform-frontend.git
-   cd events-platform-frontend
+   git clone 
+   cd 
    ```
 
 2. **Install dependencies**:
