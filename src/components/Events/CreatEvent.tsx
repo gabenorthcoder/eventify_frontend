@@ -316,7 +316,7 @@ React.useState<AddressAutocompleteValue | null>(null);
             <FormControl>
               <FormLabel htmlFor="name">Address</FormLabel>
               <AddressAutocomplete
-                apiKey="AIzaSyAkmHj4PI-bN5VINXTWcvMfCkr0UdxDPCQ"
+                apiKey=""
                 label=""
                 value={addressData}
                 onChange={(_, value: AddressAutocompleteValue | null) =>
